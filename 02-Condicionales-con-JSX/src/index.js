@@ -18,7 +18,7 @@ const titulo = (
                     <p style={ {color: color_verde} }>Soy Web Developer</p>
                     <p>Tengo { edad } años y me gusta programar.</p>
                     {/* Si existe un valor en la variable pais imprime el codigo jsx */}
-                    { pais && <p style={{ 'color': '#FF00FF', 'font-size': '32px' }}>Soy de {pais}</p> }
+                    { pais && <p style={{ color: '#FF00FF', fontSize: '32px' }}>Soy de {pais}</p> }
                     
                 </div>
             :
